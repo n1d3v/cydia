@@ -1,0 +1,8 @@
+Origin: patricktbp's Repo
+Label: patricktbp's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: A repository containing patricktbp's tweaks. (64-bit only)

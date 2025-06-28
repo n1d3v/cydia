@@ -1,0 +1,10 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.add-to {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
