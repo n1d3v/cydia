@@ -3,8 +3,24 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Basically the same way as the flex method, but compatible with older iOS versions */
 .add-to {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+    display: block;
+}
+
+.add-to > * {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-to > *:last-child {
+    margin-bottom: 0;
+}
+
+.app-icon {
+    width: 13px;
 }
